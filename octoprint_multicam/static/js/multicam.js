@@ -34,7 +34,7 @@ $(function () {
             webcamRatioClass: ko.observable('ratio169'),
             webcamError: ko.observable(false),
             webcamMuted: ko.observable(true),
-            webRTCPeerConnection: ko.observable(null),
+            webRTCPeerConnection: null,
             webcamElementHls: ko.observable(null),
             webcamElementWebrtc: ko.observable(null)
         };
