@@ -211,7 +211,7 @@ $(function () {
                 self.WebCamSettings.webRTCPeerConnection = startWebRTC(
                     video,
                     self.WebCamSettings.streamUrlEscaped(),
-                    self.settings.streamWebrtcIceServers()
+                    "stun:stun.l.google.com:19302"
                 );
             }
 
